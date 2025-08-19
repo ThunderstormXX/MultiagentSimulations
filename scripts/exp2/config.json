@@ -1,0 +1,19 @@
+{
+  "simulation": {
+    "num_steps": 1000
+  },
+  "agents": {
+    "random_agents": 5,
+    "rl_agents": 5,
+    "initial_cash": 10000
+  },
+  "training": {
+    "num_simulations": 10,
+    "epochs": 30
+  },
+  "output": {
+    "save_csv": true,
+    "save_plots": true,
+    "results_dir": "results/"
+  }
+}

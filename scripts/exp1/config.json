@@ -1,0 +1,27 @@
+{
+  "simulation": {
+    "num_steps": 1000
+  },
+  "agents": [
+    {
+      "type": "RandomAgent",
+      "id": "random_1", 
+      "initial_cash": 10000
+    },
+    {
+      "type": "RLAgent",
+      "id": "rl_1",
+      "initial_cash": 10000
+    },
+    {
+      "type": "RandomAgent", 
+      "id": "random_2",
+      "initial_cash": 10000
+    }
+  ],
+  "output": {
+    "save_csv": true,
+    "save_plots": true,
+    "results_dir": "results/"
+  }
+}
