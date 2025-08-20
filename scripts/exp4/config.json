@@ -1,0 +1,22 @@
+{
+  "simulation": {
+    "num_steps": 2000,
+    "max_spread": 3.0,
+    "liquidity_factor": 0.4,
+    "execution_delay": 1
+  },
+  "agents": {
+    "random_agents": 15,
+    "rl_agents": 15,
+    "initial_cash": 10000
+  },
+  "training": {
+    "num_simulations": 20,
+    "epochs": 50
+  },
+  "output": {
+    "save_csv": true,
+    "save_plots": true,
+    "results_dir": "results/"
+  }
+}
